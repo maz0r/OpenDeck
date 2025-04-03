@@ -60,7 +60,7 @@ async fn init(device: AsyncStreamDeck, serial: String) {
 		info::PID_STREAMDECK_PLUS => 7,
 		info::PID_STREAMDECK_NEO => 9,
 		// Non-Elgato devices are given the type of the smallest Elgato device with more or the same amount of keys
-		info::PID_AJAZZ_AKP153 | info::PID_AJAZZ_AKP153E | info::PID_AJAZZ_AKP153R | info::PID_MIRABOX_HSV293S => 2,
+		info::PID_AJAZZ_AKP153 | info::PID_AJAZZ_AKP153E | info::PID_AJAZZ_AKP153R | info::PID_MIRABOX_293V3SE => 2 | info::PID_MIRABOX_HSV293S => 2,
 		info::PID_AJAZZ_AKP815 => 0,
 		_ => 2,
 	};
